@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f7fc;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #001f3f; /* Deep blue for professionalism and trust */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar .logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f9a826;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 140px 20px 50px;
+    background: linear-gradient(to right, #001f3f, #005792); /* Security and trust colors */
+    color: #ffffff;
+  }
+  
+  .finance-hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .finance-hero p {
+    font-size: 1.2rem;
+    max-width: 750px;
+    margin: auto;
+    font-weight: 400;
+  }
+  
+  /* Compliance Content */
+  .compliance-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+  }
+  
+  .compliance-content h2 {
+    font-size: 2rem;
+    color: #001f3f;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .compliance-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .compliance-content li {
+    background: #ffffff;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #005792; /* Emphasizing security elements */
+  }
+  
+  /* Best Practices and Security Measures */
+  .best-practices li,
+  .security-measures li {
+    border-left: 4px solid #f9a826; /* Highlighting critical best practices */
+  }
+  
+  /* Compliance Resources */
+  .compliance-resources a {
+    color: #005792;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .compliance-resources a:hover {
+    text-decoration: underline;
+    color: #f9a826;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #001f3f;
+    color: #ffffff;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+  
