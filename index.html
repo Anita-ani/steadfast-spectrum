@@ -1,41 +1,79 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steadfast Spectrum - Security Compliance Made Easy</title>
+    <title>Steadfast Spectrum - Cybersecurity Insights</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/finance.css">
 </head>
-
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="logo">Steadfast Spectrum</div>
+        <div class="logo"><a href="index.html">Steadfast Spectrum</a></div>
         <ul class="nav-links">
-            <li><a href="#index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="industry.html">Industries</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <h1>Welcome to Steadfast Spectrum</h1>
-        <p>Your gateway to a world of opportunities.</p>
-        <button class="cta-button" onclick="scrollToIndustries()">Get Started</button>
+    <header class="hero">
+        <h1>Cybersecurity & Infrastructure Protection</h1>
+        <p>Stay ahead of cyber threats with expert insights, best practices, and essential security frameworks for every industry.</p>
+    </header>
+
+    <!-- Importance of Cybersecurity -->
+    <section class="compliance-content">
+        <h2>Why Cybersecurity Matters Across Industries</h2>
+        <p>Cyber threats evolve daily, and businesses across finance, healthcare, retail, and government sectors face increasing risks. From data breaches to ransomware attacks, protecting critical infrastructure is more essential than ever.</p>
     </section>
 
-    <!-- Industries Section -->
-    <main id="industry-container">
-        <h2>Security Compliance Made Easy</h2>
-        <p>Get tailored security compliance requirements and guidance.</p>
-        <ul class="industry-card">
-            <li><a href="#">Finance and Banking</a></li>
-            <li><a href="#">Healthcare</a></li>
-            <li><a href="#">Retail and E-commerce</a></li>
-            <li><a href="#">Technology and Software</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Government and Public Sector</a></li>
+    <!-- Security Best Practices -->
+    <section class="compliance-content">
+        <h2>Core Security Best Practices</h2>
+        <ul class="best-practices">
+            <li>Implement Zero Trust Architecture (ZTA) to minimize risk.</li>
+            <li>Ensure compliance with industry regulations (GDPR, PCI DSS, HIPAA).</li>
+            <li>Utilize AI-driven threat detection and response systems.</li>
+            <li>Regular security assessments and vulnerability management.</li>
+            <li>Adopt strong identity and access management (IAM) controls.</li>
         </ul>
+    </section>
+
+    <!-- Industry-Specific Security Insights -->
+    <section class="compliance-content">
+        <h2>Cybersecurity Across Key Sectors</h2>
+        <ul class="security-measures">
+            <li><strong>Finance:</strong> Protecting sensitive financial data from fraud and breaches.</li>
+            <li><strong>Healthcare:</strong> Safeguarding patient records and ensuring HIPAA compliance.</li>
+            <li><strong>Retail & E-commerce:</strong> Secure transactions, fraud prevention, and PCI DSS compliance.</li>
+            <li><strong>Government:</strong> Strengthening national infrastructure security and data protection.</li>
+            <li><strong>Technology & Software:</strong> Cloud security, DevSecOps, and secure software development.</li>
+        </ul>
+    </section>
+
+    <!-- Compliance Resources -->
+    <section class="compliance-content compliance-resources">
+        <h2>Resources & Compliance Guidelines</h2>
+        <p>Explore the latest regulations and frameworks ensuring security in your industry:</p>
+        <ul>
+            <li><a href="#">NIST Cybersecurity Framework</a></li>
+            <li><a href="#">ISO 27001 Security Standards</a></li>
+            <li><a href="#">GDPR Compliance Checklist</a></li>
+            <li><a href="#">PCI DSS Security Guidelines</a></li>
+            <li><a href="#">Zero Trust Security Implementation</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Steadfast Spectrum. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
