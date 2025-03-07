@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script defer src="quiz.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CyberSecure</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="industry.html">Industries</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+        </ul>
+    </nav>
+
+    <!-- Quiz Section -->
+    <section class="quiz-container">
+        <h1>Cybersecurity Knowledge Quiz</h1>
+        <p>Test your knowledge of cybersecurity best practices!</p>
+
+        <div id="quiz-box">
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+            <button id="next-btn" class="btn" disabled>Next</button>
+        </div>
+
+        <div id="result-box" class="hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="score-text"></p>
+            <button id="retry-btn" class="btn">Try Again</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 CyberSecure. All rights reserved.</p>
+    </footer>
+</body>
+</html>

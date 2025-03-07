@@ -1,0 +1,128 @@
+/* Quiz Section */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f7fc;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #001f3f; /* Deep blue for professionalism and trust */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar .logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f9a826;
+  }
+
+
+
+
+.quiz-container {
+    max-width: 700px;
+    margin: 100px auto 50px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quiz-container h1 {
+    color: #001f3f;
+    font-size: 2rem;
+}
+
+.quiz-container p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+#quiz-box, #result-box {
+    padding: 20px;
+}
+
+#question-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-btn {
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    background: #005792;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.option-btn:hover {
+    background: #003f5c;
+}
+
+.correct {
+    background: #28a745 !important;
+}
+
+.incorrect {
+    background: #dc3545 !important;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background: #f9a826;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d78b1c;
+}
+
+.hidden {
+    display: none;
+}
